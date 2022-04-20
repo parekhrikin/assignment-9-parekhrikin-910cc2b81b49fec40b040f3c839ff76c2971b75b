@@ -1,0 +1,63 @@
+.collapse {
+
+    display: none;
+      overflow: hidden;
+      background-color: rgb(232, 238, 174);
+      height: 70px;
+      color: rgb(7, 0, 0);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: 2px solid black;
+      border-radius: 20px;
+      text-align: center;
+      outline: none;
+      font-size: 15px;
+      flex-basis: 100%;
+      flex-grow: 1;
+      padding: 10px;
+      position: absolute;
+      z-index: 1;
+  
+  }
+
+  .task {
+
+    background-color: rgb(232, 238, 174);
+      height: 50px;
+      color: rgb(7, 0, 0);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: 2px solid black;
+      border-radius: 20px;
+      text-align: center;
+      outline: none;
+      font-size: 15px;
+      flex-basis: 100%;
+      flex-grow: 1;
+      padding: 10px;
+      position: relative;
+  
+  }
+
+.active {
+    background-color: rgb(237, 240, 81);
+  }
+
+  details{
+    background-color: rgb(232, 238, 174);
+      color: rgb(7, 0, 0);
+      cursor: pointer;
+      padding: 18px;
+      width: 150px;
+      border: 2px solid black;
+      border-radius: 20px;
+      text-align: center;
+      outline: none;
+      font-size: 15px;
+      flex-basis: 100%;
+      flex-grow: 1;
+      padding: 10px;
+      position: relative;
+  }
