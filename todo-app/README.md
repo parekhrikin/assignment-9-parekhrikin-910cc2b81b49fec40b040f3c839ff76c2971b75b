@@ -3,6 +3,10 @@
 Name: Rikin Parekh
 NUID: 001543515
 
+# Description
+
+This is a To-Do app created using react
+
 
 # Getting Started with Create React App
 
