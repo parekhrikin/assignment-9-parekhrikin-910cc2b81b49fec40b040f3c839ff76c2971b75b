@@ -42,6 +42,16 @@ class Menu extends React.Component {
         console.log(this.state.date)
         console.log(this.state.time)
 
+        return fetch('http://localhost:3001/todo', {
+            method: 'POST',
+            body: JSON.stringify(this.state),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        })
+            .then(res => res.json())
+            .then(data => console.log(data));
+
         this.setState({
             title: "",
             desc: "",
